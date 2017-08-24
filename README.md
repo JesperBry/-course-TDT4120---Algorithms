@@ -2,7 +2,7 @@
 
 ## Insertion-sort(A)
 
-Markup: '
+Markup : '
 if (isAwesome){
   return true
 }
