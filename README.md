@@ -2,8 +2,7 @@
 
 ## Insertion-sort(A)
 
-Markup : '
-if (isAwesome){
-  return true
-}
-'
+```python
+s = "Python syntax highlighting"
+print s
+```
