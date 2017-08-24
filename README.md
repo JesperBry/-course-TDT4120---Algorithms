@@ -2,7 +2,7 @@
 
 ## Insertion-sort(A)
 
-```
+```pseudocode
 for j = 2 to A.length
   key = A[j]
   // Insert A[j] into the sorted sequence A[1..j - 1].
