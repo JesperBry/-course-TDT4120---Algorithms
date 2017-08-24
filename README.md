@@ -2,6 +2,7 @@
 
 ## Insertion-sort(A)
 
+Pseudocode
 ```pseudocode
 for j = 2 to A.length
   key = A[j]
