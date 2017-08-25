@@ -13,4 +13,4 @@ for j = 2 to A.length
     i = i-1
   A[i+1] = key
 ```
-[Python code](../master/-course-TDT4120---Algorithms/Algorithms/Insertion-sort(A).py)
+[Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Insertion-sort(A).py)
