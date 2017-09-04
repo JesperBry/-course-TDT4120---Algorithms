@@ -46,4 +46,4 @@ MERGE(A, p, q, r)
     else A[k] = R[j]
       j = j + 1
 ```
-[Python code]()
+[Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/merge-sort.py)
