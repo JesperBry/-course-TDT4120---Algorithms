@@ -3,8 +3,6 @@
 import sys
 
 # MERGE-Sort
-# mergeSort is merge sort function.
-# A is array, p is start point and r is end point.
 def mergeSort(A, p, r):
     if p < r:
         q = (p + r)//2
@@ -13,8 +11,6 @@ def mergeSort(A, p, r):
         merge(A, p, q, r)
 
 # merge
-    # A = array/list
-    # p,q,r: value of array ,p<=q<r
 def merge(A, p, q, r):
     n1 = q - p + 1
     n2 = r - q
