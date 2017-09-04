@@ -1,6 +1,6 @@
 # Algorithms from course TDT4120
 
-## Insertion-sort(A)
+## Insertion-sort
 
 Pseudocode
 ```pseudocode
