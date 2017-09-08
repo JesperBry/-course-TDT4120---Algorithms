@@ -89,15 +89,5 @@ Quicksort(A, p, r)
 
 Pseudocode
 ```pseudocode
-Randomized-Partition(A, p, r)
-  i = Random(p, r)
-  exchange A[r] and A[i]
-  return Partition(A, p, r)
-
-Randomized-Quicksort(A, p, r)
-  if p < r
-    q = Randomized-Partition(A, p, r)
-    Randomized-Quicksort(A, p, q - 1)
-    Randomized-Quicksort(A, q + 1, r)
 ```
 [Python code]()
