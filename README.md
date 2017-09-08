@@ -47,3 +47,18 @@ MERGE(A, p, q, r)
       j = j + 1
 ```
 [Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/merge-sort.py)
+
+## Binary search
+
+Pseudocode
+```pseudocode
+Bisect(A, p, r, v)
+  i = p
+  if p < r
+    q = ⌊(p + r)/2⌋
+    if v <= A[q]
+      i = Bisect(A, p, q, v)
+    else i = Bisect(A, q + 1, r, v)
+  return i  
+```
+[Python code]()
