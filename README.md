@@ -62,3 +62,25 @@ Bisect(A, p, r, v)
   return i  
 ```
 [Python code]()
+
+## Quicksort
+
+Pseudocode
+```pseudocode
+Partition(A, p, r)
+  x = A[r]
+  i = p - 1
+  for j = p to r - 1
+    if A[j] <= x
+      i = i + 1
+      exchange A[i] with A[j]
+  exchange A[i + 1] with A[r]
+  return i + 1
+
+Quicksort(A, p, r)
+  if p < r
+    q = Partition(A, p, r)
+    Quicksort(A, p, q - 1)
+    Quicksort(A, q + 1, r)
+```
+[Python code]()
