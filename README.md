@@ -100,4 +100,4 @@ Randomized-Quicksort(A, p, r)
     Randomized-Quicksort(A, p, q - 1)
     Randomized-Quicksort(A, q + 1, r)
 ```
-[Python code]()
+[Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Randomized-Quicksort.py)
