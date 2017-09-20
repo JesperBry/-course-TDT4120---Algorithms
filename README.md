@@ -1,5 +1,13 @@
 # Algorithms from course TDT4120
 
+| Algorithm             | WC            | AC/E    |
+| --------------------- |:-------------:| ------: |
+| INSERTION-Sort        | Θ(n^2)        | Θ(n^2)  |
+| MERGE-Sort            | Θ(nlgn)       | Θ(nlgn) |
+| Binary search         |               |         |
+| Quicksort             | Θ(n^2)        | Θ(nlgn) |
+| Randomized-Quicksort  |               |         |
+
 ## INSERTION-Sort
 
 Pseudocode
