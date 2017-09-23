@@ -4,7 +4,7 @@
 | --------------------- |:-------------:| ---------:|
 | INSERTION-Sort        | Θ(n^2)        | Θ(n^2)    |
 | MERGE-Sort            | Θ(nlgn)       | Θ(nlgn)   |
-| Binary search         |               |           |
+| Binary search         | Θ(lgn)        | Θ(lgn)    |
 | Quicksort             | Θ(n^2)        | Θ(nlgn)*  |
 | Randomized-Quicksort  |               |           |
 | Counting-Sort         | Θ(n+k)        | Θ(n+k)    |
