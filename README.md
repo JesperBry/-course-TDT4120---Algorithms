@@ -1,12 +1,18 @@
 # Algorithms from course TDT4120
 
-| Algorithm             | WC            | AC/E    |
-| --------------------- |:-------------:| ------: |
-| INSERTION-Sort        | Θ(n^2)        | Θ(n^2)  |
-| MERGE-Sort            | Θ(nlgn)       | Θ(nlgn) |
-| Binary search         |               |         |
-| Quicksort             | Θ(n^2)        | Θ(nlgn) |
-| Randomized-Quicksort  |               |         |
+| Algorithm             | WC            | AC/E      |
+| --------------------- |:-------------:| ---------:|
+| INSERTION-Sort        | Θ(n^2)        | Θ(n^2)    |
+| MERGE-Sort            | Θ(nlgn)       | Θ(nlgn)   |
+| Binary search         |               |           |
+| Quicksort             | Θ(n^2)        | Θ(nlgn)*  |
+| Randomized-Quicksort  |               |           |
+| Counting-Sort         | Θ(n+k)        | Θ(n+k)    |
+| Radix-sort            | Θ(d(n+k))     | Θ(d(n+k)) |
+| Bucket-sort           | Θ(n^2)        | Θ(n)**    |
+
+* Expected, Randomized_Quicksort
+** Average-case
 
 ## INSERTION-Sort
 
@@ -109,3 +115,53 @@ Randomized-Quicksort(A, p, r)
     Randomized-Quicksort(A, q + 1, r)
 ```
 [Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Randomized-Quicksort.py)
+
+## Counting-Sort
+
+Pseudocode
+```pseudocode
+Counting-sort(A, B, k)
+  let C[0..k] be a new array
+  for i = 0 to k
+    C[i] = 0
+  for j = 1 to A.length
+    C[A[j]] = C[A[j]]+1
+  for i = 1 to k
+    C[i] = C[i] + C[i-1]
+  for j = A.length downto 1
+    B[C[A[j]]] = A[j]
+    C[A[j]] = C[A[j]] ≠ 1
+```
+[Python code]()
+
+## Radix-sort
+
+Pseudocode
+```pseudocode
+Radix-Sort(A,d)
+  for i = 1 to d
+    sort* A by digit d
+
+
+*Must be stable**
+**Do not exchange equal values
+Use: Counting-Sort or Bucket-sort
+```
+[Python code]()
+
+## Bucket-Sort
+
+Pseudocode
+```pseudocode
+Bucket-Sort(A)
+  n = A.length
+  create B[0 ..n ≠ 1]
+  for i = 1 to n
+    make B[i] an empty lis
+  for i = 1 to n
+    add A[i] to B[⌊nA[i]⌋]
+  for i = 0 to n - 1
+    sort list B[i]
+  concatenate B[0] ... B[n ≠ 1]
+```
+[Python code]()
