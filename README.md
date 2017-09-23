@@ -11,7 +11,8 @@
 | Radix-sort            | Θ(d(n+k))     | Θ(d(n+k)) |
 | Bucket-sort           | Θ(n^2)        | Θ(n)**    |
 
-*Expected, Randomized_Quicksort
+*Expected, Randomized-Quicksort
+
 **Average-case
 
 ## INSERTION-Sort
