@@ -131,7 +131,7 @@ Counting-sort(A, B, k)
     C[i] = C[i] + C[i-1]
   for j = A.length downto 1
     B[C[A[j]]] = A[j]
-    C[A[j]] = C[A[j]] ≠ 1
+    C[A[j]] = C[A[j]] - 1
 ```
 [Python code]()
 
