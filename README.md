@@ -1,15 +1,16 @@
 # Algorithms from course TDT4120
 
-| Algorithm             | WC            | AC/E      |
-| --------------------- |:-------------:| ---------:|
-| INSERTION-Sort        | Θ(n^2)        | Θ(n^2)    |
-| MERGE-Sort            | Θ(nlgn)       | Θ(nlgn)   |
-| Binary search         | Θ(lgn)        | Θ(lgn)    |
-| Quicksort             | Θ(n^2)        | Θ(nlgn)*  |
-| Randomized-Quicksort  |               |           |
-| Counting-Sort         | Θ(n+k)        | Θ(n+k)    |
-| Radix-sort            | Θ(d(n+k))     | Θ(d(n+k)) |
-| Bucket-sort           | Θ(n^2)        | Θ(n)**    |
+| Algorithm             | WC             | AC/E      |
+| --------------------- |:--------------:| ---------:|
+| INSERTION-Sort        | Θ(n^2)         | Θ(n^2)    |
+| MERGE-Sort            | Θ(nlgn)        | Θ(nlgn)   |
+| Binary search         | Θ(lgn)         | Θ(lgn)    |
+| Quicksort             | Θ(n^2)         | Θ(nlgn)*  |
+| Randomized-Quicksort  |                |           |
+| Counting-Sort         | Θ(n+k)         | Θ(n+k)    |
+| Radix-sort            | Θ(d(n+k))      | Θ(d(n+k)) |
+| Bucket-sort           | Θ(n^2)         | Θ(n)**    |
+| Heap-sort             | O(nlgn)        |    -      |
 
 *Expected, Randomized-Quicksort
 
@@ -164,5 +165,35 @@ Bucket-Sort(A)
   for i = 0 to n - 1
     sort list B[i]
   concatenate B[0] ... B[n ≠ 1]
+```
+[Python code]()
+
+## Heap-sort
+
+Pseudocode
+```pseudocode
+Heapsort(A)
+  Build-Max-Heap(A)
+  for i = A.length downto 2
+    exchange A[1] with A[i]
+    A.size = A.size - 1
+    Max-Heapify(A, 1)
+
+Build-Max-Heap(A)
+  A.size = A.length
+  for i =  ⌊A.length/2⌋ downto 1
+    Max-Heapify(A, i)
+
+Max-Heapify(A, i)
+  l = Left(i)        // Left(i) = 2i
+  r = Right(i)       // Right(i) = 2i + 1
+  if l <= A.size and A[l] > A[i]
+    m = l
+  else m = i
+  if r <= A.size and A[r] > A[m]
+    m = r
+  if m != i
+    exchange A[i] with A[m]
+    Max-Heapify(A, m)
 ```
 [Python code]()
