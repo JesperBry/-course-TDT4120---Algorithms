@@ -10,7 +10,7 @@
 | Counting-Sort         | Θ(n+k)         | Θ(n+k)    |
 | Radix-sort            | Θ(d(n+k))      | Θ(d(n+k)) |
 | Bucket-sort           | Θ(n^2)         | Θ(n)**    |
-| Heap-sort             | O(nlgn)        | -         |
+| Heap-sort             | O(nlgn)        |-|
 
 *Expected, Randomized-Quicksort
 
