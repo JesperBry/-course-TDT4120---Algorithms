@@ -157,14 +157,14 @@ Pseudocode
 ```pseudocode
 Bucket-Sort(A)
   n = A.length
-  create B[0 ..n ≠ 1]
+  create B[0 ..n - 1]
   for i = 1 to n
     make B[i] an empty lis
   for i = 1 to n
     add A[i] to B[⌊nA[i]⌋]
   for i = 0 to n - 1
     sort list B[i]
-  concatenate B[0] ... B[n ≠ 1]
+  concatenate B[0] ... B[n - 1]
 ```
 [Python code]()
 
