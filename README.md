@@ -8,9 +8,9 @@
 | Quicksort             | Θ(n^2)         | Θ(nlgn)*  |
 | Randomized-Quicksort  |                |           |
 | Counting-Sort         | Θ(n+k)         | Θ(n+k)    |
-| Radix-sort            | Θ(d(n+k))      | Θ(d(n+k)) |
-| Bucket-sort           | Θ(n^2)         | Θ(n)**    |
-| Heap-sort             | O(nlgn)        | O(nlgn)   |
+| Radix-Sort            | Θ(d(n+k))      | Θ(d(n+k)) |
+| Bucket-Sort           | Θ(n^2)         | Θ(n)**    |
+| Heap-Sort             | O(nlgn)        | O(nlgn)   |
 
 *Expected, Randomized-Quicksort
 
@@ -118,7 +118,7 @@ Randomized-Quicksort(A, p, r)
 ```
 [Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Randomized-Quicksort.py)
 
-## Counting-sort
+## Counting-Sort
 
 Pseudocode
 ```pseudocode
@@ -136,7 +136,7 @@ Counting-sort(A, B, k)
 ```
 [Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Counting-Sort.py)
 
-## Radix-sort
+## Radix-Sort
 
 Pseudocode
 ```pseudocode
@@ -151,7 +151,7 @@ Use: Counting-sort, Bucket-sort or Merge-sort
 ```
 [Python code]()
 
-## Bucket-sort
+## Bucket-Sort
 
 Pseudocode
 ```pseudocode
@@ -168,7 +168,7 @@ Bucket-Sort(A)
 ```
 [Python code]()
 
-## Heap-sort
+## Heap-Sort
 
 Pseudocode
 ```pseudocode
