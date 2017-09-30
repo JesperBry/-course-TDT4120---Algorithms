@@ -134,7 +134,7 @@ Counting-sort(A, B, k)
     B[C[A[j]]] = A[j]
     C[A[j]] = C[A[j]] - 1
 ```
-[Python code]()
+[Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Counting-Sort.py)
 
 ## Radix-sort
 
@@ -147,7 +147,7 @@ Radix-Sort(A,d)
 
 *Must be stable**
 **Do not exchange equal values
-Use: Counting-Sort or Bucket-sort
+Use: Counting-sort, Bucket-sort or Merge-sort
 ```
 [Python code]()
 
