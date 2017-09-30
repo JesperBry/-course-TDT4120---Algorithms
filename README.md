@@ -118,7 +118,7 @@ Randomized-Quicksort(A, p, r)
 ```
 [Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Randomized-Quicksort.py)
 
-## Counting-Sort
+## Counting-sort
 
 Pseudocode
 ```pseudocode
@@ -151,7 +151,7 @@ Use: Counting-sort, Bucket-sort or Merge-sort
 ```
 [Python code]()
 
-## Bucket-Sort
+## Bucket-sort
 
 Pseudocode
 ```pseudocode
