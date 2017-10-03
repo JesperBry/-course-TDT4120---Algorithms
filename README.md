@@ -6,7 +6,7 @@
 | MERGE-Sort            | Θ(nlgn)        | Θ(nlgn)   |
 | Binary search         | Θ(lgn)         | Θ(lgn)    |
 | Quicksort             | Θ(n^2)         | Θ(nlgn)*  |
-| Randomized-Quicksort  |                |           |
+| Randomized-Quicksort  | O(nlgn)        | O(nlgn)   |
 | Counting-Sort         | Θ(n+k)         | Θ(n+k)    |
 | Radix-Sort            | Θ(d(n+k))      | Θ(d(n+k)) |
 | Bucket-Sort           | Θ(n^2)         | Θ(n)**    |
