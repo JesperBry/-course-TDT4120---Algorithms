@@ -197,3 +197,7 @@ Max-Heapify(A, i)
     Max-Heapify(A, m)
 ```
 [Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Heap-sort.py)
+
+## License
+
+ All [python](https://github.com/JesperBry/-course-TDT4120---Algorithms/tree/master/Algorithms) algorithms are licensed under the [MIT](http://opensource.org/licenses/MIT) license.
