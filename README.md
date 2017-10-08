@@ -159,7 +159,7 @@ Bucket-Sort(A)
   n = A.length
   create B[0 ..n - 1]
   for i = 1 to n
-    make B[i] an empty lis
+    make B[i] an empty list
   for i = 1 to n
     add A[i] to B[⌊nA[i]⌋]
   for i = 0 to n - 1
