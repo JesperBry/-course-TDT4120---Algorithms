@@ -166,7 +166,7 @@ Bucket-Sort(A)
     sort list B[i]
   concatenate B[0] ... B[n - 1]
 ```
-[Python code]()
+[Python code](https://github.com/JesperBry/-course-TDT4120---Algorithms/blob/master/Algorithms/Bucket-Sort.py)
 
 ## Heap-Sort
 
