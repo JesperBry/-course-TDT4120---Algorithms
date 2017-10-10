@@ -2,15 +2,15 @@
 
 | Algorithm             | WC             | AC/E      |
 | --------------------- |:--------------:| ---------:|
-| <https://github.com/JesperBry/-course-TDT4120---Algorithms#<INSERTION-Sort>        | Θ(n^2)         | Θ(n^2)    |
-| MERGE-Sort            | Θ(nlgn)        | Θ(nlgn)   |
-| Binary search         | Θ(lgn)         | Θ(lgn)    |
-| Quicksort             | Θ(n^2)         | Θ(nlgn)*  |
-| Randomized-Quicksort  | O(nlgn)        | O(nlgn)   |
-| Counting-Sort         | Θ(n+k)         | Θ(n+k)    |
-| Radix-Sort            | Θ(d(n+k))      | Θ(d(n+k)) |
-| Bucket-Sort           | Θ(n^2)         | Θ(n)**    |
-| Heap-Sort             | O(nlgn)        | O(nlgn)   |
+| [INSERTION-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#insertion-sort)       | Θ(n^2)         | Θ(n^2)    |
+| [MERGE-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#merge-sort)            | Θ(nlgn)        | Θ(nlgn)   |
+| [Binary search](https://github.com/JesperBry/-course-TDT4120---Algorithms#binary-search)         | Θ(lgn)         | Θ(lgn)    |
+| [Quicksort](https://github.com/JesperBry/-course-TDT4120---Algorithms#quicksort)             | Θ(n^2)         | Θ(nlgn)*  |
+| [Randomized-Quicksort](https://github.com/JesperBry/-course-TDT4120---Algorithms#randomized-quicksort)  | O(nlgn)        | O(nlgn)   |
+| [Counting-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#counting-sort)         | Θ(n+k)         | Θ(n+k)    |
+| [Radix-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#radix-sort)            | Θ(d(n+k))      | Θ(d(n+k)) |
+| [Bucket-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#bucket-sort)           | Θ(n^2)         | Θ(n)**    |
+| [Heap-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#heap-sort)             | O(nlgn)        | O(nlgn)   |
 
 *Expected, Randomized-Quicksort
 
