@@ -2,7 +2,7 @@
 
 | Algorithm             | WC             | AC/E      |
 | --------------------- |:--------------:| ---------:|
-| INSERTION-Sort        | Θ(n^2)         | Θ(n^2)    |
+| <project URL#<INSERTION-Sort>        | Θ(n^2)         | Θ(n^2)    |
 | MERGE-Sort            | Θ(nlgn)        | Θ(nlgn)   |
 | Binary search         | Θ(lgn)         | Θ(lgn)    |
 | Quicksort             | Θ(n^2)         | Θ(nlgn)*  |
