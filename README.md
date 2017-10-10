@@ -2,7 +2,7 @@
 
 | Algorithm             | WC             | AC/E      |
 | --------------------- |:--------------:| ---------:|
-| <project URL#<INSERTION-Sort>        | Θ(n^2)         | Θ(n^2)    |
+| <https://github.com/JesperBry/-course-TDT4120---Algorithms#<INSERTION-Sort>        | Θ(n^2)         | Θ(n^2)    |
 | MERGE-Sort            | Θ(nlgn)        | Θ(nlgn)   |
 | Binary search         | Θ(lgn)         | Θ(lgn)    |
 | Quicksort             | Θ(n^2)         | Θ(nlgn)*  |
