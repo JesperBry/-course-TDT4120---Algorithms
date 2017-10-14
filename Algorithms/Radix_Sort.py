@@ -11,7 +11,7 @@ def radixSort(A, radix):
     out = A
     d = int(floor(log(k, radix) + 1))
     for i in range(d):
-        output = countingSort(out, i, radix)
+        out = countingSort(out, i, radix)
     return out
 
 A = [9,3,1,4,5,7,7,2,20,55]
