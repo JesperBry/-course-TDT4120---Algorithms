@@ -1,16 +1,16 @@
 # Algorithms from course TDT4120
 
-| Algorithm             | WC             | AC/E      |
-| --------------------- |:--------------:| ---------:|
-| [INSERTION-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#insertion-sort)       | Θ(n^2)         | Θ(n^2)    |
-| [MERGE-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#merge-sort)            | Θ(nlgn)        | Θ(nlgn)   |
-| [Binary search](https://github.com/JesperBry/-course-TDT4120---Algorithms#binary-search)         | Θ(lgn)         | Θ(lgn)    |
-| [Quicksort](https://github.com/JesperBry/-course-TDT4120---Algorithms#quicksort)             | Θ(n^2)         | Θ(nlgn)*  |
-| [Randomized-Quicksort](https://github.com/JesperBry/-course-TDT4120---Algorithms#randomized-quicksort)  | O(nlgn)        | O(nlgn)   |
-| [Counting-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#counting-sort)         | Θ(n+k)         | Θ(n+k)    |
-| [Radix-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#radix-sort)            | Θ(d(n+k))      | Θ(d(n+k)) |
-| [Bucket-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#bucket-sort)           | Θ(n^2)         | Θ(n)**    |
-| [Heap-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#heap-sort)             | O(nlgn)        | O(nlgn)   |
+| Algorithm             | WC             | AC/E      | Stable?   |
+| --------------------- |:--------------:| ---------:| ---------:|
+| [INSERTION-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#insertion-sort)              | Θ(n^2)         | Θ(n^2)    | Yes |
+| [MERGE-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#merge-sort)                      | Θ(n lg n)        | Θ(n lg n)   | Yes |
+| [Binary search](https://github.com/JesperBry/-course-TDT4120---Algorithms#binary-search)                | Θ(lg n)         | Θ(lg n)    |
+| [Quicksort](https://github.com/JesperBry/-course-TDT4120---Algorithms#quicksort)                        | Θ(n^2)         | Θ(n lg n)*  |
+| [Randomized-Quicksort](https://github.com/JesperBry/-course-TDT4120---Algorithms#randomized-quicksort)  | O(n lg n)        | O(n lg n)   |
+| [Counting-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#counting-sort)                | Θ(n+k)         | Θ(n+k)    | Yes |
+| [Radix-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#radix-sort)                      | Θ(d(n+k))      | Θ(d(n+k)) |
+| [Bucket-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#bucket-sort)                    | Θ(n^2)         | Θ(n)**    |
+| [Heap-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#heap-sort)                        | O(n lg n)        | O(n lg n)   |
 
 *Expected, Randomized-Quicksort
 
