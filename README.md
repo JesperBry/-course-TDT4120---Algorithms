@@ -8,8 +8,8 @@
 | [Quicksort](https://github.com/JesperBry/-course-TDT4120---Algorithms#quicksort)                        | Θ(n^2)         | Θ(n lg n)*  | Usually not*** |
 | [Randomized-Quicksort](https://github.com/JesperBry/-course-TDT4120---Algorithms#randomized-quicksort)  | O(n lg n)        | O(n lg n)   | Usually not*** |
 | [Counting-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#counting-sort)                | Θ(n+k)         | Θ(n+k)    | Yes |
-| [Radix-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#radix-sort)                      | Θ(d(n+k))      | Θ(d(n+k)) | No |
-| [Bucket-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#bucket-sort)                    | Θ(n^2)         | Θ(n)**    | No |
+| [Radix-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#radix-sort)                      | Θ(d(n+k))      | Θ(d(n+k)) | Yes**** |
+| [Bucket-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#bucket-sort)                    | Θ(n^2)         | Θ(n)**    | Yes |
 | [Heap-Sort](https://github.com/JesperBry/-course-TDT4120---Algorithms#heap-sort)                        | O(n lg n)        | O(n lg n)   | No |
 
 *Expected, Randomized-Quicksort
@@ -17,6 +17,8 @@
 **Average-case
 
 ***Most quicksort implementations are not stable, though stable implementations do exist.
+
+****LSD requires stability, MSD does not
 
 ## INSERTION-Sort
 
